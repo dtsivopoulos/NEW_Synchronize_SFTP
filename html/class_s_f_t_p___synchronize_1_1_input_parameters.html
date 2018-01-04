@@ -1,0 +1,511 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SFTP Synchronize Application: Τεκμηρίωση Κλάσης SFTP_Synchronize.InputParameters</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SFTP Synchronize Application
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">SFTP Synchronize is a console Application to Synchronize Local and Remote folders with SFTP, using WinSCP ( both uploading and downloading files ). The Application depends on a parameters text file to run. The text file holds parameters needed for the corresponding process to execute, such as sftp details, email accounts etc. The name of the text file is indifferent to the process. The output of each process is logged. Windows Event Viewer or other Event Log viewers (i.e. NetCrunch WMI Tool) can be used for viewing the log. An email is sent if there are new files that have been Synchronized, or if there is an error in the process. No email is sent if there are no new files found. Library WinSCPnet.dll is used by the application for connecting and Synchronizing folders using WinSCP.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Δημιουργήθηκε από  Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Αναζήτηση');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Αναζήτηση');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_s_f_t_p___synchronize_1_1_input_parameters.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Δημόσιες Μέθοδοι</a> &#124;
+<a href="#pub-attribs">Δημόσια Χαρακτηριστικά</a> &#124;
+<a href="#pri-methods">Ιδιωτικές Μέθοδοι</a> &#124;
+<a href="class_s_f_t_p___synchronize_1_1_input_parameters-members.html">Λίστα όλων των μελών</a>  </div>
+  <div class="headertitle">
+<div class="title">Τεκμηρίωση Κλάσης SFTP_Synchronize.InputParameters</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Holds the properties needed for this application to run (sftp details, email accounts etc.) The Application depends on a parameters text file to run. The text file holds these parameters needed for the corresponding process to execute. The name of the text file is indifferent to the process.  
+ <a href="class_s_f_t_p___synchronize_1_1_input_parameters.html#details">Περισσότερα...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Δημόσιες Μέθοδοι</h2></td></tr>
+<tr class="memitem:a9672ff1e92c2adaa3e008a3d3970b803"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a9672ff1e92c2adaa3e008a3d3970b803">InputParameters</a> (string PathTxtFile)</td></tr>
+<tr class="memdesc:a9672ff1e92c2adaa3e008a3d3970b803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read &amp; Store needed parameters from text file  <a href="#a9672ff1e92c2adaa3e008a3d3970b803">Περισσότερα...</a><br /></td></tr>
+<tr class="separator:a9672ff1e92c2adaa3e008a3d3970b803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Δημόσια Χαρακτηριστικά</h2></td></tr>
+<tr class="memitem:aa1f93b126dff6bfb42f11cda344edbcf"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#aa1f93b126dff6bfb42f11cda344edbcf">UsedForDownloading</a> = &quot;&quot;</td></tr>
+<tr class="separator:aa1f93b126dff6bfb42f11cda344edbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645c209f4d17b1ee83d47538738c033f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a645c209f4d17b1ee83d47538738c033f">HostName</a> = &quot;&quot;</td></tr>
+<tr class="separator:a645c209f4d17b1ee83d47538738c033f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14c9167521a5c6319ad144632caba5b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#af14c9167521a5c6319ad144632caba5b">UserName</a> = &quot;&quot;</td></tr>
+<tr class="separator:af14c9167521a5c6319ad144632caba5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1381b77dba413313709baab5206cafec"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a1381b77dba413313709baab5206cafec">SshPrivateKeyPath</a> = &quot;&quot;</td></tr>
+<tr class="separator:a1381b77dba413313709baab5206cafec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6cff3c39ac85cf9ec9614d56c129211"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#af6cff3c39ac85cf9ec9614d56c129211">SshHostKeyFingerprint</a> = &quot;&quot;</td></tr>
+<tr class="separator:af6cff3c39ac85cf9ec9614d56c129211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e335a67e372f4e0e1c172bcc3268de0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a4e335a67e372f4e0e1c172bcc3268de0">FTPDownloadFolder</a> = &quot;&quot;</td></tr>
+<tr class="separator:a4e335a67e372f4e0e1c172bcc3268de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd9afe39b49fd62d69ea89daee9f531"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a4dd9afe39b49fd62d69ea89daee9f531">LocalDestinationPath</a> = &quot;&quot;</td></tr>
+<tr class="separator:a4dd9afe39b49fd62d69ea89daee9f531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f0ed6ae8e90c5d863aac4dd3fca3c9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#ab2f0ed6ae8e90c5d863aac4dd3fca3c9">DeleteFiles</a> = &quot;&quot;</td></tr>
+<tr class="separator:ab2f0ed6ae8e90c5d863aac4dd3fca3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a153860c819a5d89e8bd7a14eb5d1772a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a153860c819a5d89e8bd7a14eb5d1772a">AppLogSourceName</a> = &quot;&quot;</td></tr>
+<tr class="separator:a153860c819a5d89e8bd7a14eb5d1772a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44769329703abeb19c5992cb8a3ef68a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a44769329703abeb19c5992cb8a3ef68a">AppLoggingEventId</a> = 0</td></tr>
+<tr class="separator:a44769329703abeb19c5992cb8a3ef68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0cebaf35d03a0fb12815827c9248b1d"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#aa0cebaf35d03a0fb12815827c9248b1d">AppLoggingCategory</a> = 0</td></tr>
+<tr class="separator:aa0cebaf35d03a0fb12815827c9248b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad744d9b92bcaa3f1cef1b015259b479c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#ad744d9b92bcaa3f1cef1b015259b479c">EmailHostServer</a> = &quot;&quot;</td></tr>
+<tr class="separator:ad744d9b92bcaa3f1cef1b015259b479c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae062e7989c1ff6588413c9c3b2c29a27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#ae062e7989c1ff6588413c9c3b2c29a27">EmailHostPort</a> = 0</td></tr>
+<tr class="separator:ae062e7989c1ff6588413c9c3b2c29a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ccb3556717fbba55b597f018a01d94"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a95ccb3556717fbba55b597f018a01d94">EmailFrom</a> = &quot;&quot;</td></tr>
+<tr class="separator:a95ccb3556717fbba55b597f018a01d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5b6b77f9729247728aac07a48cc808"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a0e5b6b77f9729247728aac07a48cc808">EmailFromPassword</a> = &quot;&quot;</td></tr>
+<tr class="separator:a0e5b6b77f9729247728aac07a48cc808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea59b883e7e9cbf237f9c696f7170f6"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a8ea59b883e7e9cbf237f9c696f7170f6">EmailSubject</a> = &quot;&quot;</td></tr>
+<tr class="separator:a8ea59b883e7e9cbf237f9c696f7170f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab035e8d28dcdc3d3a62a1e85382a10"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a3ab035e8d28dcdc3d3a62a1e85382a10">EmailRecipient</a> = &quot;&quot;</td></tr>
+<tr class="separator:a3ab035e8d28dcdc3d3a62a1e85382a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Ιδιωτικές Μέθοδοι</h2></td></tr>
+<tr class="memitem:a5412fd56c4552082e1c189fb2d25a7fe"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html#a5412fd56c4552082e1c189fb2d25a7fe">GetProperties</a> (string path)</td></tr>
+<tr class="memdesc:a5412fd56c4552082e1c189fb2d25a7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads properties from file and stores them into Dictionary  <a href="#a5412fd56c4552082e1c189fb2d25a7fe">Περισσότερα...</a><br /></td></tr>
+<tr class="separator:a5412fd56c4552082e1c189fb2d25a7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Λεπτομερής Περιγραφή</h2>
+<div class="textblock"><p>Holds the properties needed for this application to run (sftp details, email accounts etc.) The Application depends on a parameters text file to run. The text file holds these parameters needed for the corresponding process to execute. The name of the text file is indifferent to the process. </p>
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00015">15</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+</div><h2 class="groupheader">Τεκμηρίωση Constructor &amp; Destructor</h2>
+<a id="a9672ff1e92c2adaa3e008a3d3970b803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9672ff1e92c2adaa3e008a3d3970b803">&#9670;&nbsp;</a></span>InputParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SFTP_Synchronize.InputParameters.InputParameters </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>PathTxtFile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read &amp; Store needed parameters from text file </p>
+<dl class="params"><dt>Παράμετροι</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PathTxtFile</td><td>Path of txt file</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00040">40</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Τεκμηρίωση Συναρτήσεων Μελών</h2>
+<a id="a5412fd56c4552082e1c189fb2d25a7fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5412fd56c4552082e1c189fb2d25a7fe">&#9670;&nbsp;</a></span>GetProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;string, string&gt; SFTP_Synchronize.InputParameters.GetProperties </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads properties from file and stores them into Dictionary </p>
+<dl class="params"><dt>Παράμετροι</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Path of txt file</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Επιστρέφει</dt><dd>Dictionary with properties</dd></dl>
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00081">81</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Τεκμηρίωση Δεδομένων Μελών</h2>
+<a id="aa0cebaf35d03a0fb12815827c9248b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0cebaf35d03a0fb12815827c9248b1d">&#9670;&nbsp;</a></span>AppLoggingCategory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short SFTP_Synchronize.InputParameters.AppLoggingCategory = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00027">27</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a44769329703abeb19c5992cb8a3ef68a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44769329703abeb19c5992cb8a3ef68a">&#9670;&nbsp;</a></span>AppLoggingEventId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SFTP_Synchronize.InputParameters.AppLoggingEventId = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00026">26</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a153860c819a5d89e8bd7a14eb5d1772a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a153860c819a5d89e8bd7a14eb5d1772a">&#9670;&nbsp;</a></span>AppLogSourceName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.AppLogSourceName = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00025">25</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab2f0ed6ae8e90c5d863aac4dd3fca3c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2f0ed6ae8e90c5d863aac4dd3fca3c9">&#9670;&nbsp;</a></span>DeleteFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.DeleteFiles = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00024">24</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a95ccb3556717fbba55b597f018a01d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95ccb3556717fbba55b597f018a01d94">&#9670;&nbsp;</a></span>EmailFrom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.EmailFrom = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00031">31</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0e5b6b77f9729247728aac07a48cc808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5b6b77f9729247728aac07a48cc808">&#9670;&nbsp;</a></span>EmailFromPassword</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.EmailFromPassword = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00032">32</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae062e7989c1ff6588413c9c3b2c29a27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae062e7989c1ff6588413c9c3b2c29a27">&#9670;&nbsp;</a></span>EmailHostPort</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SFTP_Synchronize.InputParameters.EmailHostPort = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00030">30</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad744d9b92bcaa3f1cef1b015259b479c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad744d9b92bcaa3f1cef1b015259b479c">&#9670;&nbsp;</a></span>EmailHostServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.EmailHostServer = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00029">29</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3ab035e8d28dcdc3d3a62a1e85382a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab035e8d28dcdc3d3a62a1e85382a10">&#9670;&nbsp;</a></span>EmailRecipient</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.EmailRecipient = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00034">34</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a8ea59b883e7e9cbf237f9c696f7170f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea59b883e7e9cbf237f9c696f7170f6">&#9670;&nbsp;</a></span>EmailSubject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.EmailSubject = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00033">33</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4e335a67e372f4e0e1c172bcc3268de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e335a67e372f4e0e1c172bcc3268de0">&#9670;&nbsp;</a></span>FTPDownloadFolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.FTPDownloadFolder = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00022">22</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a645c209f4d17b1ee83d47538738c033f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645c209f4d17b1ee83d47538738c033f">&#9670;&nbsp;</a></span>HostName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.HostName = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00018">18</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4dd9afe39b49fd62d69ea89daee9f531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd9afe39b49fd62d69ea89daee9f531">&#9670;&nbsp;</a></span>LocalDestinationPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.LocalDestinationPath = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00023">23</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="af6cff3c39ac85cf9ec9614d56c129211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cff3c39ac85cf9ec9614d56c129211">&#9670;&nbsp;</a></span>SshHostKeyFingerprint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.SshHostKeyFingerprint = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00021">21</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1381b77dba413313709baab5206cafec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1381b77dba413313709baab5206cafec">&#9670;&nbsp;</a></span>SshPrivateKeyPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.SshPrivateKeyPath = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00020">20</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="aa1f93b126dff6bfb42f11cda344edbcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f93b126dff6bfb42f11cda344edbcf">&#9670;&nbsp;</a></span>UsedForDownloading</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.UsedForDownloading = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00017">17</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<a id="af14c9167521a5c6319ad144632caba5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14c9167521a5c6319ad144632caba5b">&#9670;&nbsp;</a></span>UserName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SFTP_Synchronize.InputParameters.UserName = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Ορισμός στη γραμμή <a class="el" href="_input_parameters_8cs_source.html#l00019">19</a> του αρχείου <a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a>.</p>
+
+</div>
+</div>
+<hr/>Η τεκμηρίωση για αυτή την κλάση δημιουργήθηκε από το ακόλουθο αρχείο:<ul>
+<li><a class="el" href="_input_parameters_8cs_source.html">InputParameters.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_s_f_t_p___synchronize.html">SFTP_Synchronize</a></li><li class="navelem"><a class="el" href="class_s_f_t_p___synchronize_1_1_input_parameters.html">InputParameters</a></li>
+    <li class="footer">Δημιουργήθηκε από 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
+  </ul>
+</div>
+</body>
+</html>

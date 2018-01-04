@@ -1,0 +1,7 @@
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\bin\Debug\SFTP_Synchronize.exe
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\bin\Debug\SFTP_Synchronize.pdb
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\bin\Debug\WinSCPnet.dll
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\obj\Debug\SFTP_Synchronize.csproj.CoreCompileInputs.cache
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\obj\Debug\SFTP_Synchronize.exe
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\obj\Debug\SFTP_Synchronize.pdb
+C:\Users\dtsivopoulos\source\repos\Synchronize_SFTP_Download\SFTP_Download\obj\Debug\SFTP_Synchronize.csprojResolveAssemblyReference.cache

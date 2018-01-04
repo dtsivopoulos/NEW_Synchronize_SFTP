@@ -1,0 +1,32 @@
+
+// Parameters to Configure
+
+// TRUE for downloading from SFTP server (backoffice)
+// FALSE for uploading to SFTP folder (ΕΤΕ)
+UsedForDownloading = FALSE
+
+// TRUE for deleting file
+// FALSE for Not deleting file
+DeleteFiles = TRUE
+
+SshPrivateKeyPath = C:\Users\dtsivopoulos\Desktop\files\priv teke.ppk
+LocalDestinationPath = C:\Users\dtsivopoulos\Desktop\home\
+
+EmailHostServer = smtp.gmail.com
+EmailHostPort = 587
+EmailFrom = dtsivopoulos@gmail.com
+EmailFromPassword = Iclwylj1!
+EmailSubject = TEKE - SFTP
+EmailRecipient = d_tsivopoulos@yahoo.gr
+
+
+// Unchanged Parameters
+
+HostName = 195.64.172.87
+UserName = backoffice
+SshHostKeyFingerprint = ssh-ed25519 256 6d:77:15:29:14:53:49:45:c2:22:a0:24:80:e5:eb:3a
+FTPDownloadFolder = /home/backoffice/home/
+
+AppLoggingName = SFTP Synchronizing Backoffice (Downloading)
+AppLoggingEventId = 9999
+AppLoggingCategory = 9

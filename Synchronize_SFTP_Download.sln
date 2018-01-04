@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFTP_Synchronize", "SFTP_Download\SFTP_Synchronize.csproj", "{2FC260D7-A34D-435F-B4B0-F9B54713344D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FC260D7-A34D-435F-B4B0-F9B54713344D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC260D7-A34D-435F-B4B0-F9B54713344D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC260D7-A34D-435F-B4B0-F9B54713344D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41658892-DB8B-4463-8AC9-8552D98C8A29}
+	EndGlobalSection
+EndGlobal
